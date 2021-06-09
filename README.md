@@ -1,6 +1,4 @@
-# shift-calendar
-
-シフト管理カレンダーツール
+# Laravel-React-practice
 
 ## Development
 
