@@ -23,3 +23,8 @@ Route::get('/hello', function (Request $request) {
 });
 
 Route::get('/ver', [VerController::class, 'index']);
+
+Route::get('/user', function (Request $request) {
+    $users = App\Models\User::all();
+    return response()->json(['users' => $users]);
+});
